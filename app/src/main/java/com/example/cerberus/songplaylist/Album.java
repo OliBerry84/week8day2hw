@@ -1,10 +1,12 @@
 package com.example.cerberus.songplaylist;
 
+import java.io.Serializable;
+
 /**
  * Created by cerberus on 20/03/2018.
  */
 
-public class Album {
+public class Album implements Serializable {
 
     private Integer ranking;
     private String artist;
